@@ -177,9 +177,12 @@ def unfollowTraitors():
     usersCF = json.loads(open("currentFollowers.json").read())
     usersCF = usersCF['allUsers']
 
+    usersE = json.loads(open("exceptions.json").read())
+    usersE = usersE['allUsers']
+
 
     for user in usersF:
-        if user not in usersCF:
+        if user not in usersCF or usersE:
             print(f"Unfollowing {user['name']}")
             toggleFollow(user['userId'], 0)
 

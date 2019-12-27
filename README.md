@@ -4,7 +4,7 @@ This bot follows a bunch of randos from the global activity tab (max of 50 at a 
 Currently it is sort of slow, and very inefficient but it works. Might fix it later.
 
 # Instructions
-1. open config.json and input your session token and id
+1. open config.json and input your session token and user id
 1. run main.py
 2. choose your poison
 3. profit ???

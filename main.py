@@ -11,7 +11,8 @@ while(cont):
                        "\n(4) Un-Follow All Traitors"
                        "\n(5) Get Following Count"
                        "\n(6) Get Follower Count"
-                       "\n(7) Exit"))
+                       "\n(7) Follow all Followers"
+                       "\n(8) Exit"))
     if choice == 1:
         followGlobal()
     elif choice == 2:
@@ -26,4 +27,6 @@ while(cont):
     elif choice == 6:
         getFollowerCount()
     elif choice == 7:
+        followAllFollowers()
+    elif choice == 8:
         cont = False

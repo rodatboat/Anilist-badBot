@@ -1,3 +1,6 @@
+# UPDATE
+> This project is very old, and now completely hn maintained. I advise against using this since it is against Anilist ToS. Still, it may be useful to someone out there.
+
 # Anilist-badBot
 This bot follows a bunch of randos from the global activity tab (max of 50 at a time). It also lets you unfollow everyone.
 
